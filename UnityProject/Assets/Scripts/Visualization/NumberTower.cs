@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class NumberTower : MonoBehaviour
 {
-	public float HeightPerDollar = 0.05f;
+	public float HeightPerDollar = 0.01f;
 	public float CurrentValue = 50f;
 	public float XWidth = 0.2f;
 	public float ZWidth = 0.4f;
