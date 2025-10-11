@@ -20,11 +20,12 @@ public class MoneyHistogram : MonoBehaviour
 	{
 		float length = MoneyValues.Count * MoneyTower.transform.localScale.x;
 		float startX = -length / 2;
+		NumberTower towerSample = MoneyTower.transform.Find("MoneyTower").GetComponent<NumberTower>();
 
 		for (int i = 0; i < MoneyValues.Count; i++)
 		{
 			// Instantiating new column/tower
-			float x = startX + MoneyTower.transform.localScale.x * i;
+			float x = startX + towerSample.XWidth * i;
 			GameObject newTower = Instantiate(MoneyTower);
 
 			// Configuring
