@@ -11,12 +11,9 @@ public class MoneyHistogram : MonoBehaviour
 
 	private List<GameObject> moneyTowers = new List<GameObject>();
 	private float lastUpdateTime = 0f;
-	private CSVReader csvReader;
 
 	private void Start()
 	{
-		csvReader = GetComponent<CSVReader>();
-		MoneyValues = csvReader.GetRollingSums();
 		UpdateHistogram();
 	}
 
