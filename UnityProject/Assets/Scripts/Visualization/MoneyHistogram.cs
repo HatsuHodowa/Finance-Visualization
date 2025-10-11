@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,20 @@ public class MoneyHistogram : MonoBehaviour
 
 	private void Start()
 	{
+		StartCoroutine(InitiateAPICall());
+	}
+
+	private IEnumerator InitiateAPICall()
+	{
+		APICaller caller = GetComponent<APICaller>();
+		if (caller == null)
+		{
+			throw new Exception("Attempt to initiate API caller without caller object attached to GameObject");
+		}
+
+		// Performing get request and updating data
+		yield return caller.GetRequest();
+		MoneyValues = caller.GetRollingSums();
 		UpdateHistogram();
 	}
 
