@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef682dd2254a1274bb48a6292a5c51ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NumberTower
-  HeightPerDollar: 0.05
+  HeightPerDollar: 0.01
   CurrentValue: 50
   XWidth: 0.2
   ZWidth: 0.4
