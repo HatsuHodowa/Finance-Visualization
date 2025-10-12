@@ -1,34 +1,50 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class MoneyHistogram : MonoBehaviour
 {
+	// General public variables
 	public List<float> MoneyValues;
 	public GameObject MoneyTower;
 	public float UpdateTime = 1f;
 	public bool UpdateActive = false;
 
+	// Modules
+	private APICaller apiCaller = null;
+	private CSVReader csvReader = null;
+
+	// Private variables
 	private List<GameObject> moneyTowers = new List<GameObject>();
 	private float lastUpdateTime = 0f;
 
 	private void Start()
 	{
-		StartCoroutine(InitiateAPICall());
+		apiCaller = GetComponent<APICaller>();
+		csvReader = GetComponent<CSVReader>();
+
+		if (apiCaller != null)
+		{
+			StartCoroutine(InitiateAPICall());
+		} else if (csvReader != null)
+		{
+			MoneyValues = csvReader.GetRollingSums();
+			UpdateHistogram();
+		}
 	}
 
 	private IEnumerator InitiateAPICall()
 	{
-		APICaller caller = GetComponent<APICaller>();
-		if (caller == null)
+		if (apiCaller == null)
 		{
 			throw new Exception("Attempt to initiate API caller without caller object attached to GameObject");
 		}
 
 		// Performing get request and updating data
-		yield return caller.GetRequest();
-		MoneyValues = caller.GetRollingSums();
+		yield return apiCaller.GetRequest();
+		MoneyValues = apiCaller.GetRollingSums();
 		UpdateHistogram();
 	}
 
@@ -59,10 +75,17 @@ public class MoneyHistogram : MonoBehaviour
 
 	private void GenerateHistogram()
 	{
+		if (MoneyValues.Count == 0)
+		{
+			Debug.LogError("The histogram data is currently empty");
+			return;
+		}
+
 		// Calculating total length and starting position
 		NumberTower towerSample = MoneyTower.transform.Find("MoneyTower").GetComponent<NumberTower>();
 		float length = MoneyValues.Count * towerSample.XWidth;
 		float startX = -length / 2;
+		float minValue = MoneyValues.Min();
 
 		for (int i = 0; i < MoneyValues.Count; i++)
 		{
@@ -73,9 +96,9 @@ public class MoneyHistogram : MonoBehaviour
 
 			// Configuring
 			newTower.transform.parent = transform;
-			newTower.transform.position = new Vector3(x, 0f, 0f);
+			newTower.transform.localPosition = new Vector3(x, 0f, 0f);
 			NumberTower numTower = newTower.transform.Find("MoneyTower").GetComponent<NumberTower>();
-			numTower.CurrentValue = MoneyValues[i];
+			numTower.CurrentValue = MoneyValues[i] - minValue;
 		}
 	}
 }

@@ -246,6 +246,68 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &1123796858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123796861}
+  - component: {fileID: 1123796860}
+  - component: {fileID: 1123796859}
+  m_Layer: 0
+  m_Name: DennisStatement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1123796859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123796858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b017a6da93a1b4fa89b89c9d6daa69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  CSVFile: {fileID: 4900000, guid: d1557c28306389c46a8aee111e8c14aa, type: 3}
+--- !u!114 &1123796860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123796858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38134ca318321de429179ac940fa8088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  MoneyValues: []
+  MoneyTower: {fileID: 1865692963203378750, guid: f1f53a74d8ff57643b91327eeeba20e3, type: 3}
+  UpdateTime: 1
+  UpdateActive: 0
+--- !u!4 &1123796861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123796858}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1487262963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -606,7 +668,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.7495, y: 1.7495, z: 1.7495}
+  m_LocalScale: {x: 10, y: 1, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -623,7 +685,7 @@ GameObject:
   - component: {fileID: 1795878271}
   - component: {fileID: 1795878273}
   m_Layer: 0
-  m_Name: MoneyHistogram
+  m_Name: ArrynStatement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -644,7 +706,7 @@ MonoBehaviour:
   MoneyValues: []
   MoneyTower: {fileID: 1865692963203378750, guid: f1f53a74d8ff57643b91327eeeba20e3, type: 3}
   UpdateTime: 1
-  UpdateActive: 1
+  UpdateActive: 0
 --- !u!4 &1795878272
 Transform:
   m_ObjectHideFlags: 0
@@ -654,7 +716,7 @@ Transform:
   m_GameObject: {fileID: 1795878270}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -672,7 +734,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88b017a6da93a1b4fa89b89c9d6daa69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  CSVFile: {fileID: 4900000, guid: d1557c28306389c46a8aee111e8c14aa, type: 3}
+  CSVFile: {fileID: 4900000, guid: f52fe8b03ae3d1741afce24c16068c32, type: 3}
+--- !u!1 &2048117541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048117544}
+  - component: {fileID: 2048117543}
+  - component: {fileID: 2048117542}
+  m_Layer: 0
+  m_Name: ArrynCategorized
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2048117542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048117541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b017a6da93a1b4fa89b89c9d6daa69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  CSVFile: {fileID: 4900000, guid: 362c82023aeef774b8e10d4156ec0e64, type: 3}
+--- !u!114 &2048117543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048117541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38134ca318321de429179ac940fa8088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  MoneyValues: []
+  MoneyTower: {fileID: 1865692963203378750, guid: f1f53a74d8ff57643b91327eeeba20e3, type: 3}
+  UpdateTime: 1
+  UpdateActive: 0
+--- !u!4 &2048117544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048117541}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -681,3 +805,5 @@ SceneRoots:
   - {fileID: 1629289602}
   - {fileID: 1487262963}
   - {fileID: 1795878272}
+  - {fileID: 1123796861}
+  - {fileID: 2048117544}

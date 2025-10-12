@@ -19,12 +19,15 @@ public class CSVReader : MonoBehaviour
 		// Iterating through CSV
 		List<float> rollingSums = new List<float>();
 
-		IterateCSV((int rowNum, int colNum, string cell) =>
+		IterateCSV((string colName, int rowNum, int colNum, string cell) =>
 		{
-			if (colNum == 3 && rowNum != 0)
+			if (colName.ToLower().Trim().Equals("amount") && rowNum != 0)
 			{
 				float balanceChange;
-				if (!float.TryParse(cell, out balanceChange))
+				if (cell.Trim().Equals(""))
+				{
+					balanceChange = 0f;
+				} else if (!float.TryParse(cell, out balanceChange))
 				{
 					throw new Exception("Invalid formatting for money value: " + cell);
 				}
@@ -37,7 +40,6 @@ public class CSVReader : MonoBehaviour
 					float lastSum = rollingSums[rowNum - 2];
 					rollingSums.Add(lastSum + balanceChange);
 				}
-				Debug.Log(rollingSums[rowNum - 1]);
 			}
 		});
 
@@ -45,7 +47,7 @@ public class CSVReader : MonoBehaviour
 		return rollingSums;
 	}
 
-	private void IterateCSV(Action<int, int, string> callback)
+	private void IterateCSV(Action<string, int, int, string> callback)
 	{
 		if (CSVFile == null)
 		{
@@ -54,6 +56,7 @@ public class CSVReader : MonoBehaviour
 
 		List<float> rollingSums = new List<float>();
 		string[] lines = CSVFile.text.Split('\n');
+		string[] headerRow = lines[0].Split(',');
 
 		for (int rowNum = 0; rowNum < lines.Length; rowNum++)
 		{
@@ -65,7 +68,7 @@ public class CSVReader : MonoBehaviour
 			{
 				// Running code
 				string cell = cells[colNum];
-				callback(rowNum, colNum, cell);
+				callback(headerRow[colNum], rowNum, colNum, cell);
 			}
 		}
 	}

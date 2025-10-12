@@ -9,7 +9,7 @@ public class APICaller : MonoBehaviour
 {
 	public string LoadedJSON;
 
-	private string url = "http://ec2-54-152-191-164.compute-1.amazonaws.com/transactions";
+	private string url = "http://ec2-54-152-191-164.compute-1.amazonaws.com/api/transactions";
 
 	private void Start()
 	{
