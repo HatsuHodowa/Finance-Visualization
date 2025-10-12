@@ -43,9 +43,10 @@ public class MoneyHistogram : MonoBehaviour
 		}
 
 		// Performing get request and updating data
-		yield return apiCaller.GetRequest();
+		//yield return apiCaller.GetRequest();
 		MoneyValues = apiCaller.GetRollingSums();
 		UpdateHistogram();
+		yield return null;
 	}
 
 	private void Update()

@@ -1,14 +1,17 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ButtonPress : MonoBehaviour
 {
     public float DepressDistance = 0.05f;
+    public UnityEvent OnPress = new UnityEvent();
+    public float PressDebounceTime = 0.25f;
+    public GameObject ButtonVisual;
 
     private bool move = false;
-
     private GameObject door;
-
     private SlideDoor slideDoor;
+    private float lastStateChange = 0f;
 
     void Start()
     {
@@ -18,17 +21,21 @@ public class ButtonPress : MonoBehaviour
 
     void Update()
     {
-        if (move)
-        {
-            transform.localPosition = new Vector3(0, -DepressDistance, 0);
-        }
-        else
-        {
-            transform.localPosition = new Vector3(0, 0, 0) * Time.deltaTime;
-        }
+        if (Time.time - lastStateChange > PressDebounceTime)
+		{
+			if (move)
+			{
+				ButtonVisual.transform.localPosition = new Vector3(0, -DepressDistance, 0);
+			}
+			else
+			{
+				ButtonVisual.transform.localPosition = new Vector3(0, 0, 0);
+			}
+			lastStateChange = Time.time;
+		}
     }
 
-    private void OnTriggerEnter()
+    private void OnTriggerEnter(Collider c)
     {
         move = true;
         slideDoor.OpenDoor();
@@ -38,5 +45,6 @@ public class ButtonPress : MonoBehaviour
     private void OnTriggerExit()
     {
         move = false;
-    }
+		OnPress.Invoke();
+	}
 }

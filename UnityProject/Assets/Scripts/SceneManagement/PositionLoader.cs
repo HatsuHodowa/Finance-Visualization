@@ -17,8 +17,6 @@ public class PositionLoader : MonoBehaviour
 			GameObject player = GameObject.FindWithTag("Player");
 			Assert.NotNull(player, "Must have an object with Player tag in the scene to use PositionLoader");
 			player.transform.position = SceneInformation.LobbyLoadPosition;
-			Debug.Log("Loaded position");
-			Debug.Log(player.transform.position.ToString());
 		}
 	}
 }

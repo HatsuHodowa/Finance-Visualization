@@ -41,7 +41,7 @@ public class MoneyPileGrid : MonoBehaviour
 			// Variables
 			float amount = categoryAmounts[category];
 			float xPos = startPos + (index % length) * PileDistance;
-			float zPos = startPos + (index / length) * PileDistance;
+			float zPos = startPos * 2 + (index / length) * PileDistance;
 
 			// Creating pile
 			GameObject pileObj = Instantiate(MoneyPile);
