@@ -25,10 +25,10 @@ export default function Transactions() {
 
     return (
         <div className="p-8">
-            <h1 className="text-3xl font-bold mb-6 text-gray-800">Transactions</h1>
+            <h1 className="text-3xl font-bold mb-6 text-[#990457]">Transactions</h1>
             <div className="overflow-x-auto">
-                <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-sm">
-                    <thead className="bg-gray-100 border-b">
+                <table className="min-w-full bg-[#3A0340] border border-[#795A86] rounded-lg shadow-sm">
+                    <thead className="bg-[#CA0563] text-[#FC9D28] border-[#795A86]">
                         <tr>
                             <th className="text-left px-6 py-3">Date</th>
                             <th className="text-left px-6 py-3">Description</th>
@@ -38,7 +38,7 @@ export default function Transactions() {
                     </thead>
                     <tbody>
                         {transactions.map((tx, i) => (
-                            <tr key={i} className="border-b hover:bg-gray-50">
+                            <tr key={i} className="border-b hover:bg-[#7a2384] text-[#E23746]">
                                 <td className="px-6 py-3">
                                     {new Intl.DateTimeFormat("en-US", {
                                         month: "long",

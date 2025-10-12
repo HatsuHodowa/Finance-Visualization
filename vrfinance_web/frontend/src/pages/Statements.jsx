@@ -95,7 +95,7 @@ export default function Statements() {
 
     return (
         <div className="p-8">
-            <h1 className="text-3xl font-bold mb-6 text-gray-800">Statements</h1>
+            <h1 className="text-3xl font-bold mb-6 text-[#990457]">Statements</h1>
 
             <AnimatePresence>
                 {statements.map((s) => (
@@ -105,14 +105,14 @@ export default function Statements() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
                         transition={{ duration: 0.2 }}
-                        className="mb-4 border border-gray-200 rounded-lg bg-white shadow-sm overflow-hidden"
+                        className="mb-4 border border-[#795A86] rounded-lg bg-[#3A0340] shadow-sm overflow-hidden"
                     >
-                        <div className="flex justify-between items-center px-6 py-4 hover:bg-gray-50 transition">
+                        <div className="flex justify-between items-center px-6 py-4 hover:bg-[#500449] transition">
                             <button
                                 onClick={() => toggleStatement(s.id)}
                                 className="flex-grow text-left"
                             >
-                                <div className="font-medium text-gray-800">{s.name}</div>
+                                <div className="font-medium text-[#FC9D28]">{s.name}</div>
                                 <div className="text-sm text-gray-500">
                                     {formatDate(s.start_date)} — {formatDate(s.end_date)}
                                 </div>
@@ -154,17 +154,17 @@ export default function Statements() {
                                     className="overflow-hidden px-6 pb-4"
                                 >
                                     {loadingId === s.id ? (
-                                        <p className="text-gray-500 mt-2">Loading details...</p>
+                                        <p className="text-[#FC9D28] mt-2">Loading details...</p>
                                     ) : (
                                         <>
                                             {/* Category Summary */}
                                             {categories[s.id] && categories[s.id].length > 0 && (
                                                 <div className="mt-4 mb-6">
-                                                    <h2 className="text-lg font-semibold text-gray-800 mb-2">
+                                                    <h2 className="text-lg font-semibold text-[#FC9D28] mb-2">
                                                         Category Summary
                                                     </h2>
-                                                    <table className="min-w-full border border-gray-200 text-sm mb-3">
-                                                        <thead className="bg-gray-100 border-b">
+                                                    <table className="min-w-full border border-[#795A86] text-sm mb-3 text-[#FC9D28]">
+                                                        <thead className="bg-[#B3035C] text-[#FC9D28] border-[#795A86] border-b">
                                                             <tr>
                                                                 <th className="text-left px-4 py-2">
                                                                     Category
@@ -178,10 +178,12 @@ export default function Statements() {
                                                             {categories[s.id].map((cat, i) => (
                                                                 <tr
                                                                     key={i}
-                                                                    className="border-b hover:bg-gray-50"
+                                                                    className="border-b border-[#795A86] hover:bg-[#7a2384]"
                                                                 >
                                                                     <td className="px-4 py-2">
-                                                                        {cat.category}
+                                                                        {cat.category
+                                                                            ? cat.category
+                                                                            : "None"}
                                                                     </td>
                                                                     <td
                                                                         className={`px-4 py-2 text-right font-medium ${
@@ -205,11 +207,11 @@ export default function Statements() {
                                             {/* Transactions Table */}
                                             {transactions[s.id] && transactions[s.id].length > 0 ? (
                                                 <div>
-                                                    <h2 className="text-lg font-semibold text-gray-800 mb-2">
+                                                    <h2 className="text-lg font-semibold text-[#FC9D28] mb-2">
                                                         Transactions
                                                     </h2>
-                                                    <table className="min-w-full border border-gray-200 text-sm">
-                                                        <thead className="bg-gray-100 border-b">
+                                                    <table className="min-w-full border border-[#795A86] text-sm">
+                                                        <thead className="bg-[#B3035C] text-[#FC9D28] border-[#795A86] border-b">
                                                             <tr>
                                                                 <th className="text-left px-4 py-2">
                                                                     Date
@@ -226,7 +228,7 @@ export default function Statements() {
                                                             {transactions[s.id].map((tx, i) => (
                                                                 <tr
                                                                     key={i}
-                                                                    className="border-b hover:bg-gray-50"
+                                                                    className="border-b border-[#795A86] hover:bg-[#7a2384] text-[#E23746]"
                                                                 >
                                                                     <td className="px-4 py-2">
                                                                         {formatDate(tx.date)}
