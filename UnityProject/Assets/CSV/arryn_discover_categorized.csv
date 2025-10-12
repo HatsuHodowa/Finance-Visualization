@@ -1,0 +1,462 @@
+Card/Account,Memo,Category,Not The Spender,Amount,Paid,Sum,Rolling Sum,Date
+Discover,Gyazo pro membership,Membership,FALSE,4.99,4.99,0.00,0.00,8/9/2023
+Discover,Crunchyroll authentification,Authentification,FALSE,1,,-1.00,-1.00,8/10/2023
+Discover,Crunchyroll authentification refund,Authentification,FALSE,,1.00,1.00,,8/10/2023
+Discover,Discord nitro membership,Membership,FALSE,9.99,9.99,0.00,0.00,8/12/2023
+Discover,UNC Student Stores chem 101-101L supplies,Education,FALSE,112.77,112.77,0.00,0.00,8/15/2023
+Discover,UNC Student Stores tar heel writing guide,Education,FALSE,48.58,48.58,0.00,0.00,8/16/2023
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,10.65,10.65,0.00,0.00,8/18/2023
+Discover,Keywords everywhere membership,Membership YouTube,FALSE,16.01,16.01,0.00,0.00,8/18/2023
+Discover,Amazon purchase (protein shake hole puncher),Utilities Fitness,FALSE,34.36,34.36,0.00,0.00,8/29/2023
+Discover,Target milk purchase,Groceries Food,FALSE,3.45,3.45,0.00,0.00,9/9/2023
+Discover,Gyazo pro membership,Membership,FALSE,4.99,4.99,0.00,0.00,9/9/2023
+Discover,Discord nitro,Membership,FALSE,9.99,9.99,0.00,0.00,9/12/2023
+Discover,Groceries at Target,Groceries,FALSE,61.79,61.79,0.00,0.00,9/18/2023
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,10.65,10.65,0.00,0.00,9/19/2023
+Discover,Training gear protein shake web cam,Fitness Electronics,FALSE,64.05,64.05,0.00,0.00,10/2/2023
+Discover,Mouse and batteries Target,Electronics,FALSE,41.9,41.90,0.00,0.00,10/5/2023
+Discover,Milk run,Groceries Food,FALSE,3.45,3.45,0.00,0.00,10/6/2023
+Discover,Gyazo pro membership,Membership,FALSE,4.99,4.99,0.00,0.00,10/9/2023
+Discover,Nitro membership,Membership,FALSE,9.99,9.99,0.00,0.00,10/13/2023
+Discover,Crunchyroll Membership,Membership Entertainment,FALSE,10.65,10.65,0.00,0.00,10/19/2023
+Discover,Target shopping,Groceries,FALSE,53.74,53.74,0.00,0.00,10/23/2023
+Discover,UNC Book store test,Authentification,FALSE,1,1.00,0.00,0.00,10/24/2023
+Discover,UNC buying genki book,Education,FALSE,35.28,35.28,0.00,0.00,10/24/2023
+Discover,Target shopping teeth cleaning,Healthcare Groceries,FALSE,13.85,13.85,0.00,0.00,10/24/2023
+Discover,Target shopping ear cleaning & mouthwash,Groceries Healthcare,FALSE,18.15,18.15,0.00,0.00,10/25/2023
+Discover,Chipotle hanbaagaa,Food,FALSE,19.39,19.39,0.00,0.00,10/31/2023
+Discover,Milk run and cereal,Food Groceries,FALSE,7.93,7.93,0.00,0.00,11/4/2023
+Discover,Fiver UI video editing,YouTube,FALSE,13.93,13.93,0.00,0.00,11/4/2023
+Discover,Fiverr tip XibtlStudio,YouTube,FALSE,7.78,7.78,0.00,0.00,11/6/2023
+Discover,Fiverr inventory vid 9,YouTube,FALSE,36.44,36.44,0.00,0.00,11/7/2023
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,11/9/2023
+Discover,Bike drip,Utilities,FALSE,36.29,36.29,0.00,0.00,11/11/2023
+Discover,Discord nitro,Membership,FALSE,9.99,9.99,0.00,0.00,11/12/2023
+Discover,Fiverr tip XibtlStudio,YouTube,FALSE,8.83,8.83,0.00,0.00,11/13/2023
+Discover,Target grocery run,Groceries,FALSE,51.76,51.76,0.00,0.00,11/15/2023
+Discover,Melodius etudes for trombone,Hobbies,FALSE,23.64,23.64,0.00,0.00,11/17/2023
+Discover,Snectret ethernet for Johan,Gifts,FALSE,19.35,19.35,0.00,0.00,11/26/2023
+Discover,UNC blue books,Education,FALSE,1.08,1.08,0.00,0.00,11/28/2023
+Discover,Target grocery run,Groceries,FALSE,90.57,90.57,0.00,0.00,12/1/2023
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,12/5/2023
+Discover,Spicy 9 with CARVR software,Food,FALSE,22.69,22.69,0.00,0.00,12/8/2023
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,12/9/2023
+Discover,Discord nitro membership,Membership,FALSE,9.99,9.99,0.00,0.00,12/12/2023
+Discover,Zenith: The Last City,Entertainment,FALSE,32.01,32.01,0.00,0.00,12/16/2023
+Discover,Snectret things for Jordan,Gifts,FALSE,53.36,53.36,0.00,0.00,12/18/2023
+Discover,Buying books for mom,Literature,TRUE,52.68,52.68,0.00,0.00,12/20/2023
+Discover,YouTube Premium ,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,1/5/2024
+Discover,Edfinity purchase,Education,FALSE,25,25.00,0.00,0.00,1/8/2024
+Discover,Milk and groceries,Groceries Food,FALSE,23.48,23.48,0.00,0.00,1/9/2024
+Discover,Gyazo,Membership,FALSE,5,5.00,0.00,0.00,1/9/2024
+Discover,LFIT costs,Education,FALSE,52.5,52.50,0.00,0.00,1/10/2024
+Discover,Raspberry pi 4 b and power supply,Electronics,FALSE,57.66,57.66,0.00,0.00,1/10/2024
+Discover,Raspberry pi amazon purchases,Electronics,FALSE,52.16,52.16,0.00,0.00,1/10/2024
+Discover,Discord nitro,Membership,FALSE,9.99,9.99,0.00,0.00,1/12/2024
+Discover,Edfinity purchase #2,Education,FALSE,25,25.00,0.00,0.00,1/14/2024
+Discover,Micro SD card,Electronics,FALSE,7.51,7.51,0.00,0.00,1/16/2024
+Discover,Dad gifts,Gifts,FALSE,18.85,18.85,0.00,0.00,1/21/2024
+Discover,Crunchyroll,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,1/22/2024
+Discover,Target shopping,Groceries,FALSE,67.02,67.02,0.00,0.00,1/23/2024
+Discover,UNC hoodie from Walmart ,Cosmetics/Accessories,FALSE,24.55,24.55,0.00,0.00,1/26/2024
+Discover,Amazon thumb drive for Raspberry Pi,Electronics,FALSE,15.91,15.91,0.00,0.00,1/28/2024
+Discover,Twix from vending machine,Food,FALSE,1.85,1.85,0.00,0.00,1/29/2024
+Discover,KitKat from vending machine,Food,FALSE,1.85,1.85,0.00,0.00,1/31/2024
+Discover,Milk from Target,Food Groceries,FALSE,5.9,5.90,0.00,0.00,2/2/2024
+Discover,Reeses from vending machine,Food,FALSE,1.85,1.85,0.00,0.00,2/5/2024
+Discover,YouTube Premium Membership,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,2/5/2024
+Discover,Norwegian Wood from Amazon,Education,FALSE,11.6,11.60,0.00,0.00,2/7/2024
+Discover,KitKat from vending machine,Food,FALSE,1.85,1.85,0.00,0.00,2/7/2024
+Discover,Gyazo membership ,Membership,FALSE,4.99,4.99,0.00,0.00,2/9/2024
+Discover,Grocery shopping at Target,Groceries,FALSE,53.88,53.88,0.00,0.00,2/10/2024
+Discover,Discord nitro membership,Membership,FALSE,9.99,9.99,0.00,0.00,2/12/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,2/14/2024
+Discover,Amazon prime membership?,Membership,FALSE,8.05,8.05,0.00,0.00,2/17/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,2/19/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,2/21/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,2/22/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,2/26/2024
+Discover,E-bogu kendo equipment: O# - 228460,Fitness Hobbies,FALSE,186.2,186.20,0.00,0.00,2/27/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,2/28/2024
+Discover,Umbrella and milk from target,Food Utilities,FALSE,27.38,27.38,0.00,0.00,3/1/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,3/4/2024
+Discover,YouTube Premium membership,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,3/5/2024
+Discover,Amazon prime membership,Membership,FALSE,8.05,8.05,0.00,0.00,3/7/2024
+Discover,Gyazo Pro membership ,Membership,FALSE,4.99,4.99,0.00,0.00,3/9/2024
+Discover,Discord Nitro membership,Membership,FALSE,9.99,9.99,0.00,0.00,3/12/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,3/18/2024
+Discover,Protein shake from Amazon,Fitness,FALSE,18.11,18.11,0.00,0.00,3/19/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,3/21/2024
+Discover,Big hairties from Amazon,Cosmetics/Accessories,FALSE,6.44,6.44,0.00,0.00,3/22/2024
+Discover,Target grocery shopping,Groceries,FALSE,46.15,46.15,0.00,0.00,3/22/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,3/23/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,3/26/2024
+Discover,Ordering transcript,Education,FALSE,9.5,9.50,0.00,0.00,4/1/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,4/1/2024
+Discover,Target grocery shopping,Groceries,FALSE,40.31,40.31,0.00,0.00,4/1/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,4/3/2024
+Discover,Polytopia game on steam,Entertainment,FALSE,6.39,6.39,0.00,0.00,4/5/2024
+Discover,Youtube premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,4/5/2024
+Discover,Kitkat from vending machine,Food,FALSE,1.85,1.85,0.00,0.00,4/8/2024
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,4/9/2024
+Discover,Target grocery shopping,Groceries,FALSE,70.05,70.05,0.00,0.00,4/12/2024
+Discover,Discord nitro membership,Membership,FALSE,9.99,9.99,0.00,0.00,4/12/2024
+Discover,Tape measure - Bonanza,Utilities,FALSE,8.59,8.59,0.00,0.00,4/13/2024
+Discover,Vending machine snack,Food,FALSE,1.85,1.85,0.00,0.00,4/17/2024
+Discover,Vending machine snack ,Food,FALSE,1.85,1.85,0.00,0.00,4/22/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,4/23/2024
+Discover,Vending machine snack,Food,FALSE,1.85,1.85,0.00,0.00,4/24/2024
+Discover,Batteries from Target,Electronics,FALSE,9.88,9.88,0.00,0.00,4/27/2024
+Discover,Pirate captain,Food,FALSE,19.06,19.06,0.00,0.00,4/29/2024
+Discover,Brackey's asset donation,Donation,FALSE,2,2.00,0.00,0.00,4/30/2024
+Discover,Brunswick CC Tuition,Education,FALSE,533.5,533.50,0.00,0.00,5/3/2024
+Discover,Spicy 9 with CARVR software,Food,FALSE,24.46,24.46,0.00,0.00,5/5/2024
+Discover,YouTube Premium subscription,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,5/5/2024
+Discover,Gyazo pro,Membership,FALSE,4.99,4.99,0.00,0.00,5/9/2024
+Discover,Discord nitro ,Membership,FALSE,10.66,10.66,0.00,0.00,5/12/2024
+Discover,RAM upgrade for PC,Electronics,FALSE,67.24,67.24,0.00,0.00,5/17/2024
+Discover,Humble Bundle No Man's Sky,Entertainment,FALSE,29.99,29.99,0.00,0.00,5/17/2024
+Discover,Brunswick CC course materials,Education,FALSE,178.8,178.80,0.00,0.00,5/20/2024
+Discover,Gorilla Gadgets phone case,Utilities,FALSE,15.98,15.98,0.00,0.00,5/21/2024
+Discover,Crunchy roll,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,5/22/2024
+Discover,Kodanshas Furigana Japanese Dictionary,Education,FALSE,42.7,42.70,0.00,0.00,5/28/2024
+Discover,Candy store by the river,Food,FALSE,16.03,16.03,0.00,0.00,5/29/2024
+Discover,Food lion gifts for India,Gifts,FALSE,36.51,36.51,0.00,0.00,5/29/2024
+Discover,Rocketbook notebook (big one),Education,FALSE,51.23,51.23,0.00,0.00,6/1/2024
+Discover,Book giveaway shipping for mom,Shipping,TRUE,38.96,38.96,0.00,0.00,6/3/2024
+Discover,Youtube premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,6/6/2024
+Discover,Gyazo pro,Membership,FALSE,4.99,4.99,0.00,0.00,6/10/2024
+Discover,Presents for dad and Riley,Gifts,FALSE,71.45,71.45,0.00,0.00,6/11/2024
+Discover,Discord nitro monthly,Membership,FALSE,10.66,10.66,0.00,0.00,6/12/2024
+Discover,Pen ink replacements,Education,FALSE,18.04,18.04,0.00,0.00,6/13/2024
+Discover,OVR Utilities on Steam,Entertainment,FALSE,12.8,12.80,0.00,0.00,6/16/2024
+Discover,Flossies,Healthcare,FALSE,8.2,8.20,0.00,0.00,6/16/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,6/23/2024
+Discover,Shipping free book copies for mom,Shipping,TRUE,38.96,38.96,0.00,0.00,6/24/2024
+Discover,Chicken from walmart,Food,TRUE,26.6,26.60,0.00,0.00,6/30/2024
+Discover,Kinder for Riley,Gifts,FALSE,3.33,3.33,0.00,0.00,6/30/2024
+Discover,Paint for mom and dad,Home,FALSE,72,72.00,0.00,0.00,6/30/2024
+Discover,NewEgg CPU cooler,Electronics,FALSE,47.93,47.93,0.00,0.00,7/4/2024
+Discover,YouTube Premium ,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,7/5/2024
+Discover,Bricks and gravel for the shed,Home,TRUE,32.54,32.54,0.00,0.00,7/7/2024
+Discover,Free book deliveries,Shipping,TRUE,24.35,24.35,0.00,0.00,7/8/2024
+Discover,Dentist appointment,Healthcare,TRUE,244,244.00,0.00,0.00,7/10/2024
+Discover,Gyazo Pro,Membership,FALSE,4.99,4.99,0.00,0.00,7/10/2024
+Discover,Discord Nitro,Membership,FALSE,10.66,10.66,0.00,0.00,7/12/2024
+Discover,Walmart errands,Groceries,TRUE,11.22,11.22,0.00,0.00,7/13/2024
+Discover,Brunswick oral surgery consultation,Healthcare,TRUE,136,136.00,0.00,0.00,7/17/2024
+Discover,Takoboto subscription,Membership,FALSE,28.81,28.81,0.00,0.00,7/18/2024
+AMEX,Delta air lines trip to Utah,Transportation,FALSE,677.96,677.96,0.00,0.00,7/18/2024
+Discover,Fiverr YouTube editing payment,YouTube,FALSE,112.62,112.62,0.00,0.00,7/20/2024
+Discover,Crunchyroll,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,7/23/2024
+Discover,Blade and Sorcery PC,Entertainment,FALSE,32.01,32.01,0.00,0.00,7/27/2024
+Discover,Tip on Fiverr,YouTube,FALSE,18.83,18.83,0.00,0.00,8/1/2024
+Discover,Visual kanji textbook,Education,FALSE,35,35.00,0.00,0.00,8/3/2024
+Discover,YouTube 2024 inv episode 2 Fiverr,YouTube,FALSE,112.62,112.62,0.00,0.00,8/3/2024
+Discover,YouTube premium membership,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,8/6/2024
+Discover,悪役令嬢レベル99 second book,Literature,FALSE,10.68,10.68,0.00,0.00,8/7/2024
+Discover,Lunch at Arby's with Jarod,Food,FALSE,28,28.00,0.00,0.00,8/8/2024
+Discover,Water bottle and toilet cleaning stuff for Jarod,Gifts,FALSE,25.77,25.77,0.00,0.00,8/8/2024
+AMEX,Walmart purchases in Utah,Entertainment,FALSE,55.61,55.61,0.00,0.00,8/9/2024
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,8/9/2024
+Discover,The Other Place with Jarod,Food,FALSE,17.07,17.07,0.00,0.00,8/10/2024
+Discover,Discord Nitro,Membership,FALSE,10.66,10.66,0.00,0.00,8/12/2024
+Discover,Popeyes lunch at the airport,Food,FALSE,12.3,12.30,0.00,0.00,8/13/2024
+Discover,Fiverr tip,YouTube,FALSE,18.83,18.83,0.00,0.00,8/14/2024
+Discover,BCC transcript to UNC,Education,FALSE,8.9,8.90,0.00,0.00,8/15/2024
+Discover,Textbooks for classes,Education,FALSE,118.98,118.98,0.00,0.00,8/17/2024
+Discover,Test purchase from campus rec,Authentification,FALSE,1,1.00,0.00,0.00,8/18/2024
+Discover,Intro to rock climbing course,Fitness Hobbies,FALSE,20,20.00,0.00,0.00,8/18/2024
+AMEX,Target groceries for dorm,Groceries,FALSE,59.99,59.99,0.00,0.00,8/18/2024
+Discover,Book walker purchase,Literature,FALSE,7.47,7.47,0.00,0.00,8/18/2024
+Discover,Google temporary hold,Authentification,FALSE,1,1.00,0.00,0.00,8/19/2024
+AMEX,UNC bluebooks for Japanese,Education,FALSE,1.61,1.61,0.00,0.00,8/19/2024
+Discover,Campus Rec climbing fee,Fitness Hobbies,FALSE,12,12.00,0.00,0.00,8/20/2024
+Discover,UNC Student Stores notebook,Education,FALSE,11.8,11.80,0.00,0.00,8/22/2024
+AMEX,Spicy 9 exec meeting,Food,FALSE,18.31,18.31,0.00,0.00,8/22/2024
+AMEX,Target ear cleaning stuff,Healthcare,FALSE,8.91,8.91,0.00,0.00,8/22/2024
+Discover,Book walker purchase,Literature,FALSE,7.47,7.47,0.00,0.00,8/22/2024
+Discover,MATH 347 Edfinity,Education,FALSE,29,29.00,0.00,0.00,8/23/2024
+AMEX,Perusall expenses for COMP 283,Education,FALSE,10,10.00,0.00,0.00,8/23/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,8/23/2024
+Discover,Google temp hold,Authentification,FALSE,1,1.00,0.00,0.00,8/24/2024
+Discover,Epilogue breakfast,Food,FALSE,17.77,17.77,0.00,0.00,8/24/2024
+Discover,KitKat vending machine,Food,FALSE,1.85,1.85,0.00,0.00,8/26/2024
+Discover,Vending machine,Food,FALSE,1.85,1.85,0.00,0.00,8/29/2024
+AMEX,Target poncho,Utilities,FALSE,22.55,22.55,0.00,0.00,9/2/2024
+Discover,Edfinity office hours subscription,Education,FALSE,4.99,4.99,0.00,0.00,9/6/2024
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,9/6/2024
+Discover,Bookwalker purchase,Literature,FALSE,10.68,10.68,0.00,0.00,9/8/2024
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,9/9/2024
+AMEX,Vending machine?,Food,FALSE,1.85,1.85,0.00,0.00,9/10/2024
+AMEX,Target shopping,Groceries,FALSE,27.35,27.35,0.00,0.00,9/12/2024
+Discover,Discord Nitro,Membership,FALSE,10.66,10.66,0.00,0.00,9/12/2024
+AMEX,Target milk,Groceries Food,FALSE,3.87,3.87,0.00,0.00,9/14/2024
+Discover,Google one,Membership,FALSE,9.99,9.99,0.00,0.00,9/19/2024
+Discover,Crunchyroll,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,9/22/2024
+AMEX,Target shoppping,Groceries,FALSE,42.22,42.22,0.00,0.00,9/24/2024
+AMEX,Target milk,Groceries Food,FALSE,3.87,3.87,0.00,0.00,9/26/2024
+Discover,Webtoon coin purchase,Entertainment Literature,FALSE,6.39,6.39,0.00,0.00,9/28/2024
+AMEX,Target shopping,Groceries,FALSE,21.52,21.52,0.00,0.00,10/5/2024
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,10/6/2024
+Discover,Book walker purchase 1,Entertainment Literature,FALSE,5.33,5.33,0.00,0.00,10/7/2024
+Discover,Book walker purchase 2,Entertainment Literature,FALSE,10.66,10.66,0.00,0.00,10/7/2024
+AMEX,Attemped vending machine purchase,Food,FALSE,2.35,,-2.35,-2.35,10/10/2024
+AMEX,Attempted vending machine purchase refund,Food,FALSE,,2.35,2.35,,10/10/2024
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,10/11/2024
+Discover,Target groceries,Groceries,FALSE,54.82,54.82,0.00,0.00,10/12/2024
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,10/12/2024
+Discover,Target milk purchase,Food Groceries,FALSE,3.87,3.87,0.00,0.00,10/13/2024
+Discover,Vending machine,Food,FALSE,2.35,2.35,0.00,0.00,10/15/2024
+Discover,Beatsaber on steam,Entertainment,FALSE,32.01,32.01,0.00,0.00,10/17/2024
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.66,10.66,0.00,0.00,10/18/2024
+Discover,Google one membership,Membership,FALSE,9.99,9.99,0.00,0.00,10/18/2024
+Discover,Eternal Fitness 2-day,Membership Fitness,FALSE,10,10.00,0.00,0.00,10/19/2024
+Discover,Home depo pliers,Utilities,FALSE,7.49,7.49,0.00,0.00,10/27/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,10/28/2024
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.66,10.66,0.00,0.00,10/30/2024
+Discover,Vending machine,Food,FALSE,2.35,2.35,0.00,0.00,10/30/2024
+Discover,UNC student stores ballot mailing,Shipping,FALSE,1.77,1.77,0.00,0.00,11/4/2024
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,11/6/2024
+AMEX,Target shopping,Groceries,FALSE,43.42,43.42,0.00,0.00,11/7/2024
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,11/9/2024
+Discover,Bookwalker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,11/12/2024
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,11/12/2024
+AMEX,Vending machine,Food,FALSE,2.35,2.35,0.00,0.00,11/13/2024
+Discover,Target shopping,Groceries,FALSE,43.24,43.24,0.00,0.00,11/18/2024
+Discover,Google One membership,Membership,FALSE,9.99,9.99,0.00,0.00,11/18/2024
+Discover,Ado concert tickets,Entertainment,TRUE,1588.55,1588.55,0.00,0.00,11/19/2024
+AMEX,Concert ticket 1,Entertainment,TRUE,499.46,499.46,0.00,0.00,11/19/2024
+AMEX,Concert ticket insurance 1,Entertainment,TRUE,48,48.00,0.00,0.00,11/19/2024
+AMEX,Concert ticket insurance 2,Entertainment,TRUE,58,58.00,0.00,0.00,11/19/2024
+Discover,Concert tickets insurance,Entertainment,TRUE,132,132.00,0.00,0.00,11/19/2024
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,11/19/2024
+AMEX,Concert ticket 2,Entertainment,TRUE,645.14,645.14,0.00,0.00,11/20/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,11/29/2024
+AMEX,Best buy echo for dad,Gifts,FALSE,26.86,26.86,0.00,0.00,11/30/2024
+Discover,Rocketbook for dad,Gifts,FALSE,41.49,41.49,0.00,0.00,11/30/2024
+AMEX,Target groceries for dorm,Groceries,FALSE,87.02,87.02,0.00,0.00,12/6/2024
+Discover,Nordpass membership,Membership,FALSE,26.68,26.68,0.00,0.00,12/6/2024
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,12/6/2024
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,12/9/2024
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,12/12/2024
+Discover,Walmart gift shopping,Gifts,FALSE,90.47,90.47,0.00,0.00,12/18/2024
+Discover,Google One,Membership,FALSE,9.99,9.99,0.00,0.00,12/18/2024
+Discover,Steam purchase,Entertainment,FALSE,4.26,4.26,0.00,0.00,12/20/2024
+Discover,Hardees for fam,Food,TRUE,34.44,34.44,0.00,0.00,12/20/2024
+AMEX,Walmart gloves,Cosmetics/Accessories,TRUE,16.97,16.97,0.00,0.00,12/24/2024
+Discover,Bookwalker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,12/24/2024
+AMEX,Farming simulator 22,Entertainment,FALSE,32.01,32.01,0.00,0.00,12/26/2024
+AMEX,Sun chips from Exxon,Food,FALSE,4.79,4.79,0.00,0.00,12/28/2024
+AMEX,Rush fun plex drink purchase,Food,FALSE,10.23,10.23,0.00,0.00,12/30/2024
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,12/30/2024
+Discover,My singing monsters purchase,Entertainment,FALSE,5.33,5.33,0.00,0.00,1/1/2025
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,1/6/2025
+AMEX,Blue books from book store,Education,FALSE,1.08,1.08,0.00,0.00,1/8/2025
+AMEX,Edfinity Purchase,Education,FALSE,29,29.00,0.00,0.00,1/8/2025
+AMEX,Target shopping,Groceries,FALSE,54.65,54.65,0.00,0.00,1/8/2025
+AMEX,NSCI 175 textbook,Education,FALSE,107.52,107.52,0.00,0.00,1/9/2025
+AMEX,JAPN 375 novel,Literature Education,FALSE,25.79,25.79,0.00,0.00,1/9/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,1/9/2025
+Discover,Bookwalker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,1/10/2025
+AMEX,Target shopping,Groceries,FALSE,22.68,22.68,0.00,0.00,1/11/2025
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,1/12/2025
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,1/12/2025
+AMEX,Vending machine snack,Food,FALSE,2.35,2.35,0.00,0.00,1/14/2025
+AMEX,Target shopping,Groceries,FALSE,40.25,40.25,0.00,0.00,1/16/2025
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,1/17/2025
+Discover,Google One,Membership,FALSE,9.99,9.99,0.00,0.00,1/18/2025
+AMEX,Target shopping,Groceries,FALSE,27.17,27.17,0.00,0.00,1/22/2025
+Discover,Target shopping,Groceries,FALSE,30.31,30.31,0.00,0.00,1/24/2025
+Discover,Crunchyroll,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,1/29/2025
+Discover,Steam Goat Simulator 3,Entertainment,FALSE,32.01,32.01,0.00,0.00,2/1/2025
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,2/3/2025
+AMEX,Target grocery shopping,Groceries Food,FALSE,48.07,48.07,0.00,0.00,2/3/2025
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,2/5/2025
+Discover,The Last Samurai movie on YouTube,Education,FALSE,4.26,4.26,0.00,0.00,2/6/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,2/9/2025
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,2/13/2025
+AMEX,Change.org petition donation for mom,Donation,FALSE,3,3.00,0.00,0.00,2/14/2025
+Discover,Date with Abbey at Wheat,Food,FALSE,26.41,26.41,0.00,0.00,2/14/2025
+AMEX,Target grocery shopping (and gift),Groceries,FALSE,40.67,40.67,0.00,0.00,2/14/2025
+Discover,Google One membership,Membership,FALSE,9.99,9.99,0.00,0.00,2/19/2025
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,2/22/2025
+AMEX,Target grocery shopping,Groceries Food,FALSE,52.06,52.06,0.00,0.00,2/23/2025
+Discover,Vending machine snack,Food,FALSE,2.25,2.25,0.00,0.00,2/25/2025
+Discover,Bookwalker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,2/26/2025
+Discover,Criterion Channel test purchase,Authentification,FALSE,1,1.00,0.00,0.00,2/28/2025
+AMEX,Target groceries and umbrella,Groceries,FALSE,33.62,33.62,0.00,0.00,2/28/2025
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.51,8.51,0.00,0.00,2/28/2025
+Discover,Temporary hold for Duolingo super,Authentification,FALSE,1,1.00,0.00,0.00,3/2/2025
+Discover,Target quick shopping,Groceries,FALSE,15.68,15.68,0.00,0.00,3/3/2025
+Discover,YouTube Premium membership,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,3/5/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,3/9/2025
+Discover,Duolingo membership,Membership,FALSE,89.66,89.66,0.00,0.00,3/10/2025
+AMEX,Uber trip to dentist tip,Healthcare Transportation,FALSE,3,3.00,0.00,0.00,3/11/2025
+AMEX,Uber trip to dentist,Transportation Healthcare,FALSE,10.93,10.93,0.00,0.00,3/11/2025
+AMEX,Uber trip from dentist,Transportation Healthcare,FALSE,10.92,10.92,0.00,0.00,3/11/2025
+AMEX,Uber trip from dentist tip,Transportation Healthcare,FALSE,3,3.00,0.00,0.00,3/11/2025
+Discover,Discord Nitro,Membership,TRUE,10.66,10.66,0.00,0.00,3/12/2025
+Discover,Vending machine,Food,FALSE,2.25,2.25,0.00,0.00,3/18/2025
+Discover,Target shopping,Groceries Food,FALSE,17.6,17.60,0.00,0.00,3/19/2025
+Discover,Google One membership,Membership,FALSE,9.99,9.99,0.00,0.00,3/19/2025
+Discover,Protein shake,Fitness,FALSE,31.1,31.10,0.00,0.00,3/20/2025
+Discover,Purchase of Raft game,Entertainment,FALSE,21.34,21.34,0.00,0.00,3/21/2025
+AMEX,Book walker Baccano! audiobook,Entertainment Literature,FALSE,13.89,13.89,0.00,0.00,3/22/2025
+Discover,Target food and groceries,Groceries Food,FALSE,15.77,15.77,0.00,0.00,3/22/2025
+AMEX,Spicy 9 with Carolina Kendo,Food,FALSE,11.92,11.92,0.00,0.00,3/23/2025
+Discover,Book walker audio book purchase,Entertainment,FALSE,21.35,21.35,0.00,0.00,3/27/2025
+Discover,Crunchyroll membership,Entertainment,FALSE,8.51,8.51,0.00,0.00,3/29/2025
+Discover,Grocery shopping & food,Groceries Food,FALSE,62.9,62.90,0.00,0.00,3/30/2025
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,4/1/2025
+AMEX,Grocery shopping,Groceries,FALSE,27.49,27.49,0.00,0.00,4/2/2025
+AMEX,Milk from target,Groceries Food,FALSE,3.97,3.97,0.00,0.00,4/3/2025
+Discover,YouTube premium,Membership,FALSE,14.93,14.93,0.00,0.00,4/6/2025
+AMEX,Vending machine,Food,FALSE,2.25,2.25,0.00,0.00,4/8/2025
+AMEX,Target shopping and milk,Food Groceries,FALSE,16.07,16.07,0.00,0.00,4/9/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,4/9/2025
+AMEX,Donation to Riley's school,Donation,FALSE,33.95,33.95,0.00,0.00,4/10/2025
+Discover,Target shopping and shoes,Groceries Food,FALSE,39.89,39.89,0.00,0.00,4/12/2025
+Discover,Discord nitro membership,Membership,FALSE,10.66,10.66,0.00,0.00,4/12/2025
+AMEX,Vending machine,Food,FALSE,2.25,2.25,0.00,0.00,4/15/2025
+Discover,Google One membership,Membership,FALSE,9.99,9.99,0.00,0.00,4/19/2025
+AMEX,Japanese Tobira textbook collection,Education,FALSE,136.61,136.61,0.00,0.00,4/23/2025
+Discover,Ado new 6 tickets insurance,Entertainment,TRUE,138,138.00,0.00,0.00,4/26/2025
+Discover,Ado new 6 tickets,Entertainment,TRUE,1531.78,1531.78,0.00,0.00,4/26/2025
+AMEX,Goat simulator 3 DLC purchase,Entertainment,FALSE,16,16.00,0.00,0.00,4/28/2025
+Discover,Google bookwalker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,4/29/2025
+AMEX,Spicy 9 with Software team,Food,FALSE,20.4,20.40,0.00,0.00,4/29/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,4/29/2025
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.52,8.52,0.00,0.00,4/29/2025
+AMEX,Target shopping and milk,Groceries Food,FALSE,10.57,10.57,0.00,0.00,5/2/2025
+AMEX,Ado membership,Membership,FALSE,3.83,3.83,0.00,0.00,5/3/2025
+Discover,Google YouTube Premium,Membership,FALSE,14.93,14.93,0.00,0.00,5/6/2025
+AMEX,Book walker Magic Maker purchase,Entertainment Literature,FALSE,8.28,8.28,0.00,0.00,5/9/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,5/9/2025
+AMEX,Gregg Lombardo consultation,Healthcare,TRUE,104,104.00,0.00,0.00,5/12/2025
+Discover,Discord nitro membership,Membership,FALSE,10.66,10.66,0.00,0.00,5/12/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,5/15/2025
+Discover,Google one membership,Membership,FALSE,9.99,9.99,0.00,0.00,5/18/2025
+AMEX,5D chess with multiverse time travel,Entertainment,FALSE,12.8,12.80,0.00,0.00,5/19/2025
+Discover,Book walker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,5/21/2025
+Discover,Walmart shopping for mom,Gifts,FALSE,26.67,26.67,0.00,0.00,5/22/2025
+Discover,Harris Teeter gift for Aravind,Gifts,FALSE,35,35.00,0.00,0.00,5/25/2025
+Discover,New egg purchases (wifi card),Electronics,FALSE,32.01,32.01,0.00,0.00,5/26/2025
+Discover,New egg purchase (DP cable),Electronics,FALSE,13.87,13.87,0.00,0.00,5/26/2025
+AMEX,Jarod plane ticket,Transportation,TRUE,528.97,528.97,0.00,0.00,5/27/2025
+AMEX,Jarod plane ticket insurance,Transportation,TRUE,37.03,37.03,0.00,0.00,5/27/2025
+Discover,Walmart gift purchase for India,Gifts,FALSE,29.11,29.11,0.00,0.00,5/28/2025
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.52,8.52,0.00,0.00,5/28/2025
+AMEX,Ado membership,Membership Entertainment,FALSE,3.85,3.85,0.00,0.00,6/3/2025
+AMEX,Therapy payment,Healthcare,FALSE,15,15.00,0.00,0.00,6/4/2025
+Discover,Bookwalker purchase,Entertainment Literature,FALSE,10.68,10.68,0.00,0.00,6/6/2025
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,6/6/2025
+AMEX,Steins; Gate game,Entertainment,FALSE,9.6,9.60,0.00,0.00,6/8/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,6/9/2025
+AMEX,Satori reader membership,Membership Education,FALSE,89,89.00,0.00,0.00,6/11/2025
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,6/12/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,10,10.00,0.00,0.00,6/16/2025
+Discover,Dr. Gregg Lombardo surgey,Healthcare,FALSE,1430.78,1430.78,0.00,0.00,6/17/2025
+AMEX,Dr. Gregg Lombardo surgey,Healthcare,FALSE,1430,1430.00,0.00,0.00,6/17/2025
+Discover,Google one membership,Membership,FALSE,9.99,9.99,0.00,0.00,6/18/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,6/19/2025
+AMEX,Starbucks for Riley,Food,FALSE,7.05,7.05,0.00,0.00,6/22/2025
+AMEX,Walmart purchase for Riley's cake,Groceries,FALSE,7,7.00,0.00,0.00,6/22/2025
+AMEX,McDonald's for Riley,Food,FALSE,4.58,4.58,0.00,0.00,6/26/2025
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.52,8.52,0.00,0.00,6/28/2025
+AMEX,Steam purchase in Guild Wars 2,Entertainment,FALSE,5.34,5.34,0.00,0.00,7/2/2025
+AMEX,Ado membership,Membership Entertainment,FALSE,3.83,3.83,0.00,0.00,7/2/2025
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,7/6/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,5,5.00,0.00,0.00,7/7/2025
+AMEX,Quest 3S purchase,Entertainment Electronics,FALSE,320.24,320.24,0.00,0.00,7/8/2025
+Discover,Tracktion purchase,Hobbies,FALSE,10,10.00,0.00,0.00,7/8/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,7/9/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,7/9/2025
+AMEX,Supernatural membership fee,Membership Fitness,FALSE,10.66,10.66,0.00,0.00,7/9/2025
+Discover,Arby's meal for family,Food,TRUE,35.91,35.91,0.00,0.00,7/10/2025
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,7/12/2025
+Discover,Panera bread with India,Food,FALSE,19.41,19.41,0.00,0.00,7/15/2025
+Discover,Walmart gift for Jordan,Gifts,FALSE,54.33,54.33,0.00,0.00,7/15/2025
+AMEX,PEAK game,Entertainment,FALSE,8.53,8.53,0.00,0.00,7/17/2025
+Discover,Takoboto membership,Membership Education,FALSE,28.81,28.81,0.00,0.00,7/18/2025
+AMEX,McDonald's for Jarod,Food,FALSE,11.63,11.63,0.00,0.00,7/19/2025
+Discover,Google one membership,Membership,FALSE,9.99,9.99,0.00,0.00,7/19/2025
+AMEX,Buying gas to pick up Jarod from airport,Transportation,FALSE,21.61,21.61,0.00,0.00,7/19/2025
+AMEX,Another gas payment?,Transportation,FALSE,8.14,8.14,0.00,0.00,7/19/2025
+AMEX,Checkers with Jarod,Food,FALSE,24.8,24.80,0.00,0.00,7/21/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,5,5.00,0.00,0.00,7/21/2025
+Discover,Gas payment picking up Jarod,Transportation,FALSE,29.72,29.72,0.00,0.00,7/21/2025
+AMEX,Inn for Orlando trip,Traveling,TRUE,99.69,99.69,0.00,0.00,7/25/2025
+AMEX,Second inn,Traveling,TRUE,88.49,88.49,0.00,0.00,7/25/2025
+AMEX,Universal Studios ticket for me,Entertainment,FALSE,169.34,169.34,0.00,0.00,7/26/2025
+AMEX,Universal Studios ticket for Jarod,Entertainment,TRUE,169.34,169.34,0.00,0.00,7/26/2025
+AMEX,Universal Studios corndog,Food,FALSE,12.25,12.25,0.00,0.00,7/26/2025
+AMEX,Taco bell after concert,Food,FALSE,10.43,10.43,0.00,0.00,7/26/2025
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.52,8.52,0.00,0.00,7/29/2025
+AMEX,Bracelet purchase at antique shop,Cosmetics/Accessories,FALSE,21.4,21.40,0.00,0.00,7/30/2025
+AMEX,Mellow mushroom lunch,Food,FALSE,21.3,21.30,0.00,0.00,7/30/2025
+Discover,UNC parking for giving Jarod tour,Transportation,FALSE,3.5,3.50,0.00,0.00,7/31/2025
+AMEX,Gas purchase for dropping Jarod off,Transportation,FALSE,16.54,16.54,0.00,0.00,7/31/2025
+AMEX,Bojangles for me & Jarod,Food,FALSE,16.7,16.70,0.00,0.00,7/31/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,7/31/2025
+Discover,Study abroad application fee,Education,FALSE,50,50.00,0.00,0.00,8/1/2025
+AMEX,Ado membership,Membership Entertainment,FALSE,3.74,3.74,0.00,0.00,8/3/2025
+AMEX,Arby's meal for family,Food,FALSE,34.96,34.96,0.00,0.00,8/3/2025
+AMEX,Passport fees,Transportation,FALSE,52.55,52.55,0.00,0.00,8/5/2025
+AMEX,Passport fees?,Transportation,FALSE,3.45,3.45,0.00,0.00,8/5/2025
+Discover,YouTube Premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,8/6/2025
+Discover,UNC RR parking,Transportation Education,FALSE,260,260.00,0.00,0.00,8/8/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,8/9/2025
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,8/12/2025
+AMEX,Fuel for trip to campus,Transportation,FALSE,39.44,39.44,0.00,0.00,8/16/2025
+AMEX,Target shopping,Groceries Food,FALSE,98.17,98.17,0.00,0.00,8/17/2025
+Discover,Google one membership,Membership,FALSE,9.99,9.99,0.00,0.00,8/18/2025
+AMEX,Target shopping,Groceries Food,FALSE,10.26,10.26,0.00,0.00,8/18/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,8/21/2025
+Discover,UNC climbing fee,Fitness,FALSE,12,12.00,0.00,0.00,8/22/2025
+Discover,eBay quest 3S case purchase,Electronics,FALSE,38.15,38.15,0.00,0.00,8/22/2025
+Discover,Target shopping,Groceries Food,FALSE,45.22,45.22,0.00,0.00,8/23/2025
+AMEX,Bookwalker purchase of Japanese manga,Entertainment,FALSE,5.11,5.11,0.00,0.00,8/24/2025
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.52,8.52,0.00,0.00,8/28/2025
+AMEX,Target shopping/milk and lunchables,Groceries Food,FALSE,8.44,8.44,0.00,0.00,8/28/2025
+Discover,Bookwalker purchase,Entertainment,FALSE,10.68,10.68,0.00,0.00,8/29/2025
+AMEX,Target shopping?,Groceries Food,FALSE,34.34,34.34,0.00,0.00,8/29/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,10,10.00,0.00,0.00,9/1/2025
+AMEX,Ado membership,Membership,FALSE,3.74,3.74,0.00,0.00,9/2/2025
+Discover,Target shopping,Groceries Food,FALSE,17.95,17.95,0.00,0.00,9/4/2025
+Discover,YouTube premium,Membership Entertainment,FALSE,14.93,14.93,0.00,0.00,9/5/2025
+AMEX,Outlier linguistics hanzi dictionary,Education,FALSE,59.99,59.99,0.00,0.00,9/5/2025
+Discover,McDonald's with Kai,Food,FALSE,11.06,11.06,0.00,0.00,9/7/2025
+AMEX,Steam purchase of Noun Town,Education,FALSE,21.34,21.34,0.00,0.00,9/8/2025
+AMEX,Target groceries (batteries cereal),Groceries Food,FALSE,20.84,20.84,0.00,0.00,9/8/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,4.99,0.00,0.00,9/9/2025
+AMEX,Target groceries,Groceries,FALSE,15.24,15.24,0.00,0.00,9/10/2025
+AMEX,Supernatural membership fee,Membership Fitness,FALSE,10.66,10.66,0.00,0.00,9/10/2025
+Discover,Book walker purchase,Entertainment,FALSE,10.68,10.68,0.00,0.00,9/11/2025
+Discover,Discord nitro,Membership,FALSE,10.66,10.66,0.00,0.00,9/12/2025
+Discover,Bookwalker purchase,Entertainment,FALSE,3.2,3.20,0.00,0.00,9/13/2025
+AMEX,Fuel for trip home,Transportation,FALSE,33.67,33.67,0.00,0.00,9/14/2025
+AMEX,Bojangles for road trip,Food,FALSE,10.48,10.48,0.00,0.00,9/14/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,5,5.00,0.00,0.00,9/17/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,9/18/2025
+Discover,Google one membership,Membership,FALSE,9.99,9.99,0.00,0.00,9/19/2025
+AMEX,Target shopping,Groceries Food,FALSE,36.21,36.21,0.00,0.00,9/19/2025
+AMEX,Taco bell with India,Food,FALSE,9.6,9.60,0.00,0.00,9/20/2025
+Discover,Book walker purchase,Entertainment,FALSE,10.68,10.68,0.00,0.00,9/23/2025
+AMEX,Target shopping,Groceries Food,FALSE,20.56,20.56,0.00,0.00,9/23/2025
+Discover,Kindle purchase of Finding Grace,Entertainment,FALSE,4.84,4.84,0.00,0.00,9/25/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,9/25/2025
+AMEX,Target shopping,Groceries Food,FALSE,24.7,24.70,0.00,0.00,9/26/2025
+Discover,Crunchyroll membership,Membership Entertainment,FALSE,8.52,8.52,0.00,0.00,9/29/2025
+AMEX,Target shopping,Groceries Food,FALSE,44.95,44.95,0.00,0.00,9/29/2025
+AMEX,CBT counseling fee,Healthcare,FALSE,15,15.00,0.00,0.00,9/29/2025
+AMEX,CBT counseling efe,Healthcare,FALSE,15,15.00,0.00,0.00,9/30/2025
+AMEX,Ado membership,Membership,FALSE,3.74,3.74,0.00,0.00,10/2/2025
+Discover,Fueling car for baby shower trip,Transportation,FALSE,36.71,36.71,0.00,0.00,10/3/2025
+AMEX,Target shopping,Groceries Food,FALSE,9.24,9.24,0.00,0.00,10/3/2025
+Discover,YouTube premium,Entertainment,FALSE,14.93,14.93,0.00,0.00,10/6/2025
+Discover,McDonald's meal during screening,Food,FALSE,12,12.00,0.00,0.00,10/7/2025
+AMEX,Target shopping,Groceries Food,FALSE,50.25,50.25,0.00,0.00,10/7/2025
+Discover,UNC wall climbing rental gear fee,Fitness Entertainment,FALSE,30,,-30.00,-30.00,10/8/2025
+AMEX,Screening session with parents,Healthcare,FALSE,15,,-15.00,-15.00,10/8/2025
+Discover,Gyazo membership,Membership,FALSE,4.99,,-4.99,-34.99,10/9/2025
