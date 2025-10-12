@@ -1,5 +1,6 @@
 using NUnit.Framework.Constraints;
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -7,6 +8,7 @@ public class MoneyPile : MonoBehaviour
 {
 	public float HeightPerDollar = 0.01f;
 	public GameObject Dollar;
+	public string Category = "Account";
 	public float MoneyAmount = 100;
 	public float spawnDelay = 0.1f;
 
@@ -16,9 +18,11 @@ public class MoneyPile : MonoBehaviour
 	private float lastSpawn = 0f;
 	private bool isSpawning = false;
 
+	private TextMeshProUGUI billboardText;
+
 	private void Start()
 	{
-		InitializeMoneySpawn(MoneyAmount);
+		InitializeDisplay();
 	}
 
 	private void Update()
@@ -43,6 +47,18 @@ public class MoneyPile : MonoBehaviour
 				}
 			}
 		}
+	}
+
+	public void InitializeDisplay()
+	{
+		// Setting up billboard
+		string moneyString = MoneyAmount.ToString("C2", System.Globalization.CultureInfo.GetCultureInfo("en-US"));
+		billboardText = transform.Find("Billboard").Find("Text").GetComponent<TextMeshProUGUI>();
+		Debug.Log(billboardText);
+		billboardText.text = $"{Category}\n{moneyString}";
+
+		// Spawning money
+		InitializeMoneySpawn(MoneyAmount);
 	}
 
 	private void InitializeMoneySpawn(float amount)
