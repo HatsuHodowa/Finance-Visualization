@@ -16,5 +16,5 @@ Connect a headset to your system and hit play. This let's you explore the enviro
 
 To test without a headset, in Unity:
 **Edit->Project Settings->XR-Plugin Management->XR Interaction Toolkit**  
-Turn **Use XR Interaction Simulation in scenes** on
+Turn **Use XR Interaction Simulation in scenes** on  
 You can now play the environments without a headset.
