@@ -15,6 +15,6 @@ Clone the repository to your system and add the project to Unity.
 Connect a headset to your system and hit play. This let's you explore the environment with VR mode.
 
 To test without a headset, in Unity:
-**Edit->Project Settings->XR-Plugin Management->XR Interaction Toolkit**
+**Edit->Project Settings->XR-Plugin Management->XR Interaction Toolkit**  
 Turn **Use XR Interaction Simulation in scenes** on
 You can now play the environments without a headset.
