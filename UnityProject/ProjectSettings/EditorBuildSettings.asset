@@ -5,12 +5,30 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/Other/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StatementViewScene.unity
     guid: dd68d81f67812aa4b8e692957cc0fbde
+  - enabled: 1
+    path: Assets/Scenes/LobbyScene.unity
+    guid: b127818f21d28c144ab6199bda0002a1
+  - enabled: 1
+    path: Assets/Scenes/Tour/StatementVisualization.unity
+    guid: c3de67b6ec6549f478366d6d10705217
+  - enabled: 1
+    path: Assets/Scenes/Tour/MoneyPiles.unity
+    guid: 50e9640b85afc264cbb7363a05619d72
+  - enabled: 1
+    path: Assets/Scenes/Other/APIIntegration (old).unity
+    guid: c43a5850b17268b4baa583bc5b1f21c5
+  - enabled: 1
+    path: Assets/Scenes/Tour/APIStatement.unity
+    guid: 879fe14426d1731438526e7df4f46936
+  - enabled: 1
+    path: Assets/Scenes/Tour/APIMoneyPiles.unity
+    guid: 2d25bf43ea66c6b439dfd69c83e528f0
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

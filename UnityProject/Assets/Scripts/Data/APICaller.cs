@@ -2,64 +2,59 @@ using NUnit.Framework;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Transactions;
 using UnityEngine;
 using UnityEngine.Networking;
 
 public class APICaller : MonoBehaviour
 {
-	public string LoadedJSON;
+	public int statementId = 2;
 
-	private string url = "http://ec2-54-152-191-164.compute-1.amazonaws.com/api/transactions";
+	private string transactionsUrl = "https://financialreality.photo/api/statements/{0}/transactions";
+	private string categoriesUrl = "https://financialreality.photo/api/statements/{0}/categories";
 
 	private void Start()
 	{
-		StartCoroutine(GetRequest());
+		FormatURLs();
 	}
 
-	public IEnumerator GetRequest()
+	public void InitializeRequests()
 	{
-		UnityWebRequest request = UnityWebRequest.Get(url);
-		yield return request.SendWebRequest();
+		StartCoroutine(GetRequests());
+	}
 
-		if (request.result == UnityWebRequest.Result.Success)
+	private void FormatURLs()
+	{
+		transactionsUrl = String.Format(transactionsUrl, statementId.ToString());
+		categoriesUrl = String.Format(categoriesUrl, statementId.ToString());
+	}
+
+	public IEnumerator GetRequests()
+	{
+		// Requesting transactions
+		UnityWebRequest transacRequest = UnityWebRequest.Get(transactionsUrl);
+		yield return transacRequest.SendWebRequest();
+
+		if (transacRequest.result == UnityWebRequest.Result.Success)
 		{
-			LoadedJSON = request.downloadHandler.text;
+			APIManager.TransactionsJSON = transacRequest.downloadHandler.text;
+			Debug.Log(APIManager.TransactionsJSON);
 		} else
 		{
-			Debug.LogError(request.error);
+			Debug.LogError(transacRequest.error);
 		}
-	}
 
-	public List<float> GetRollingSums()
-	{
-		if (LoadedJSON == null)
+		// Requesting categories
+		UnityWebRequest catRequest = UnityWebRequest.Get(categoriesUrl);
+		yield return catRequest.SendWebRequest();
+
+		if (catRequest.result == UnityWebRequest.Result.Success)
 		{
-			throw new Exception("There was no loaded JSON file");
-		}
-		List<float> rollingSums = new List<float>();
-
-		// Parsing JSON file
-		string wrappedJson = "{\"items\":" + LoadedJSON + "}";
-		BankStatement statement = JsonUtility.FromJson<BankStatement>(wrappedJson);
-
-		// Looping statement items
-		for (int i = 0; i < statement.items.Length; i++)
+			APIManager.CategoriesJSON = catRequest.downloadHandler.text;
+			Debug.Log(APIManager.CategoriesJSON);
+		} else
 		{
-			if (rollingSums.Count <= 0)
-			{
-				rollingSums.Add(statement.items[i].GetAmount());
-			} else
-			{
-				float lastSum = rollingSums[i - 1];
-				rollingSums.Add(lastSum + statement.items[i].GetAmount());
-			}
+			Debug.LogError(catRequest.error);
 		}
-
-		return rollingSums;
-	}
-
-	public void SetURL(string url)
-	{
-		this.url = url;
 	}
 }
