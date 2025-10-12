@@ -5,6 +5,6 @@ public class EnterGate : MonoBehaviour
 {
     private void OnTriggerEnter()
     {
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene("StatementViewScene", LoadSceneMode.Single);
     }
 }
