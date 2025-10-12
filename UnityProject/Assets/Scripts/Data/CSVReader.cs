@@ -8,6 +8,7 @@ using UnityEngine;
 public class CSVReader : MonoBehaviour
 {
 	public TextAsset CSVFile;
+	public char CategoryDelimiter = ' ';
 
 	private void Start()
 	{
@@ -45,6 +46,50 @@ public class CSVReader : MonoBehaviour
 
 		// Returning
 		return rollingSums;
+	}
+
+	public Dictionary<string, float> GetCategorySpendings()
+	{
+		Dictionary<string, float> catSpendings = new Dictionary<string, float>();
+
+		string lastCatCell = null;
+		IterateCSV((string colName, int rowNum, int colNum, string cell) =>
+		{
+			if (rowNum != 0)
+			{
+				if (colName.ToLower().Trim().Equals("category"))
+				{
+					lastCatCell = cell;
+				} else if (colName.ToLower().Trim().Equals("amount") && lastCatCell != null)
+				{
+					String[] cats = lastCatCell.Split(CategoryDelimiter);
+					for (int i = 0; i < cats.Length; i++)
+					{
+						// Converting to float
+						float numericAmount;
+						if (cell.Trim().Equals(""))
+						{
+							numericAmount = 0f;
+						} else if (!float.TryParse(cell, out numericAmount))
+						{
+							throw new Exception($"Unable to parse as numeric value: {cell}");
+						}
+
+						// Adding to spendings totals
+						if (!catSpendings.ContainsKey(cats[i]))
+						{
+							catSpendings.Add(cats[i], numericAmount);
+						}
+						else
+						{
+							catSpendings[cats[i]] += numericAmount;
+						}
+					}
+				}
+			}
+		});
+
+		return catSpendings;
 	}
 
 	private void IterateCSV(Action<string, int, int, string> callback)
