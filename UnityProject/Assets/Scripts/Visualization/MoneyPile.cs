@@ -22,7 +22,7 @@ public class MoneyPile : MonoBehaviour
 
 	private void Start()
 	{
-		InitializeDisplay();
+		//InitializeDisplay();
 	}
 
 	private void Update()
@@ -54,7 +54,6 @@ public class MoneyPile : MonoBehaviour
 		// Setting up billboard
 		string moneyString = MoneyAmount.ToString("C2", System.Globalization.CultureInfo.GetCultureInfo("en-US"));
 		billboardText = transform.Find("Billboard").Find("Text").GetComponent<TextMeshProUGUI>();
-		Debug.Log(billboardText);
 		billboardText.text = $"{Category}\n{moneyString}";
 
 		// Spawning money

@@ -1,8 +1,9 @@
 using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoneyPileArray : MonoBehaviour
+public class MoneyPileGrid : MonoBehaviour
 {
 	public Dictionary<string, float> categoryAmounts;
 	public float PileDistance = 5f;
@@ -29,8 +30,9 @@ public class MoneyPileArray : MonoBehaviour
 
 		// Finding starting position
 		int categoryCount = categoryAmounts.Keys.Count;
-		float length = categoryCount * PileDistance;
-		float startXPos = -length / 2;
+		int length = (int) MathF.Ceiling(MathF.Sqrt(categoryCount));
+		float gridWidth = (length - 1) * PileDistance;
+		float startPos = -gridWidth / 2;
 
 		// Generating piles
 		int index = 0;
@@ -38,12 +40,13 @@ public class MoneyPileArray : MonoBehaviour
 		{
 			// Variables
 			float amount = categoryAmounts[category];
-			float xPos = startXPos + index * PileDistance;
+			float xPos = startPos + (index % length) * PileDistance;
+			float zPos = startPos + (index / length) * PileDistance;
 
 			// Creating pile
 			GameObject pileObj = Instantiate(MoneyPile);
 			pileObj.transform.parent = transform;
-			pileObj.transform.localPosition = new Vector3(xPos, 0, 0);
+			pileObj.transform.localPosition = new Vector3(xPos, 0, zPos);
 			
 			// Configuring pile
 			MoneyPile pile = pileObj.GetComponent<MoneyPile>();
