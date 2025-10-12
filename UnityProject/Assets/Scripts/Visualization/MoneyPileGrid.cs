@@ -18,6 +18,10 @@ public class MoneyPileGrid : MonoBehaviour
 		{
 			categoryAmounts = csvReader.GetCategorySpendings();
 			GeneratePiles();
+		} else
+		{
+			categoryAmounts = APIManager.GetCategorySums();
+			GeneratePiles();
 		}
 	}
 

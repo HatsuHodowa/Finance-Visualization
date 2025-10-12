@@ -57,33 +57,4 @@ public class APICaller : MonoBehaviour
 			Debug.LogError(catRequest.error);
 		}
 	}
-
-	public List<float> GetRollingSums()
-	{
-		string loadedJson = APIManager.TransactionsJSON;
-		if (loadedJson == null)
-		{
-			throw new Exception("There was no loaded JSON file");
-		}
-		List<float> rollingSums = new List<float>();
-
-		// Parsing JSON file
-		string wrappedJson = "{\"items\":" + loadedJson + "}";
-		BankStatement statement = JsonUtility.FromJson<BankStatement>(wrappedJson);
-
-		// Looping statement items
-		for (int i = 0; i < statement.items.Length; i++)
-		{
-			if (rollingSums.Count <= 0)
-			{
-				rollingSums.Add(statement.items[i].GetAmount());
-			} else
-			{
-				float lastSum = rollingSums[i - 1];
-				rollingSums.Add(lastSum + statement.items[i].GetAmount());
-			}
-		}
-
-		return rollingSums;
-	}
 }

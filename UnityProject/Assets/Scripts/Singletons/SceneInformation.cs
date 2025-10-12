@@ -11,7 +11,6 @@ public static class SceneInformation
 
 	public static void OnDoorEnter(EnterGate enterDoor)
 	{
-		Debug.Log($"New scene: {enterDoor.SceneName}");
 		if (enterDoor.SceneName == lobbyScene)
 		{
 			InLobby = true;
@@ -19,7 +18,6 @@ public static class SceneInformation
 		else
 		{
 			GameObject enterDoorObj = enterDoor.transform.parent.gameObject;
-			Debug.Log($"Exit door was {enterDoorObj.name}");
 			LobbyLoadPosition = enterDoorObj.transform.position - enterDoorObj.transform.forward * DoorOffset;
 			InLobby = false;
 		}

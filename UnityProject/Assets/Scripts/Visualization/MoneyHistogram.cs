@@ -13,7 +13,6 @@ public class MoneyHistogram : MonoBehaviour
 	public bool UpdateActive = false;
 
 	// Modules
-	private APICaller apiCaller = null;
 	private CSVReader csvReader = null;
 
 	// Private variables
@@ -22,31 +21,17 @@ public class MoneyHistogram : MonoBehaviour
 
 	private void Start()
 	{
-		apiCaller = GetComponent<APICaller>();
 		csvReader = GetComponent<CSVReader>();
 
-		if (apiCaller != null)
-		{
-			StartCoroutine(InitiateAPICall());
-		} else if (csvReader != null)
+		if (csvReader != null)
 		{
 			MoneyValues = csvReader.GetRollingSums();
 			UpdateHistogram();
-		}
-	}
-
-	private IEnumerator InitiateAPICall()
-	{
-		if (apiCaller == null)
+		} else if (APIManager.TransactionsJSON != null)
 		{
-			throw new Exception("Attempt to initiate API caller without caller object attached to GameObject");
+			MoneyValues = APIManager.GetRollingSums();
+			UpdateHistogram();
 		}
-
-		// Performing get request and updating data
-		//yield return apiCaller.GetRequest();
-		MoneyValues = apiCaller.GetRollingSums();
-		UpdateHistogram();
-		yield return null;
 	}
 
 	private void Update()
