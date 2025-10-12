@@ -50,7 +50,7 @@ export default function UploadStatement() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="e.g. September 2025 Statement"
-                    className="border border-[#795A86] rounded-md p-2 w-full focus:ring-2 focus:ring-blue-500 outline-none placeholder:text-[#865A8E]"
+                    className="text-[#865A8E] border border-[#795A86] rounded-md p-2 w-full focus:ring-2 focus:ring-blue-500 outline-none placeholder:text-[#865A8E]"
                 />
 
                 <label className="text-sm font-medium text-[#E84C48]">CSV File</label>
