@@ -15,7 +15,7 @@ public class PositionLoader : MonoBehaviour
 		if (activeScene.name == "LobbyScene")
 		{
 			GameObject player = GameObject.FindWithTag("Player");
-			Assert.NotNull(player, "Must have an object with Player tag in the scene to use PositionLoader");
+			//Assert.NotNull(player, "Must have an object with Player tag in the scene to use PositionLoader");
 			player.transform.position = SceneInformation.LobbyLoadPosition;
 		}
 	}

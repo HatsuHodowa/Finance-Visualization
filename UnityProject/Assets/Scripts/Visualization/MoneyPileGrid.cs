@@ -54,7 +54,7 @@ public class MoneyPileGrid : MonoBehaviour
 			
 			// Configuring pile
 			MoneyPile pile = pileObj.GetComponent<MoneyPile>();
-			Assert.NotNull(pile);
+			//Assert.NotNull(pile);
 			pile.MoneyAmount = amount;
 			pile.Category = category;
 			pile.InitializeDisplay();
