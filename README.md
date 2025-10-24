@@ -1,5 +1,9 @@
-# Financial Reality
+# Financial Reality Fork
 
+## Note
+This is a fork of a HackNC 2025 project called Financial Reality, being developed for my own finance visualization purposes. Below is the original description from the hackathon project.
+
+## Introduction
 A VR application that allows you to view visualizations of your personal finances
 at the scale of physical objects instead of numbers.
 
